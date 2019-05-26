@@ -4,7 +4,8 @@
   "description": "Mongo-Scraper is a site that will scrape a news site and allow people to comment on the news articles and mongo/mongoose will save the comments to each article",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev":"nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
     "cheerio": "^1.0.0-rc.3",
     "express": "^4.17.0",
     "express-handlebars": "^3.1.0",
-    "mongoose": "^5.5.10"
+    "mongoose": "^5.5.10",
+    "nodemon": "^1.19.0"
   }
 }

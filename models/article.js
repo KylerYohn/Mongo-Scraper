@@ -20,9 +20,14 @@ const ArticleSchema = new Schema({
 
     //comment is an object that stores a comment Id
     //it will be linked to the object Id in the comment model
-    comment: {
+    comment: [{
         type: Schema.Types.ObjectId,
         ref: "Comment"
+    }],
+
+    hasComment:{
+        type: Boolean,
+        default: false
     }
 
 })
@@ -31,4 +36,4 @@ const Article = mongoose.model("Article", ArticleSchema)
 
 //create our model from the schema
 
-module.export = Article;
+module.exports = Article;
