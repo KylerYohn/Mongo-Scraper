@@ -1,0 +1,59 @@
+#Mongo-Scraper{
+    margin-left: 15px;
+    font-size: 30px;
+    color: #F2EEb3;
+   
+}
+
+#home{
+    background-color: #F2EEb3;
+    color: black;
+}
+
+#commented{
+    margin-left: 20px;
+    background-color: #bfaf80;
+}
+
+#scraper{
+    margin-left:20px;
+    background-color: #8c6954
+}
+
+.navbar{
+    background-color:  #59323c;
+}
+
+#card{
+    background-color: #260126;
+    color: #F2EEb3
+}
+
+#cardBody{
+    background-color: #bfaf80;
+    font-size: 25px;
+}
+
+#modalButton{
+    background-color:  #59323c;
+    color:#F2EEb3;
+    font-size:20px;
+}
+
+#read{
+    font-size:20px;
+    color:#59323c;
+    background-color: #8c6954;
+}
+
+#read:hover{
+    background-color:  #59323c;
+    color:#F2EEb3;
+}
+
+#modalButton:hover{
+    color:#59323c;
+    background-color: #8c6954;
+
+}
+
