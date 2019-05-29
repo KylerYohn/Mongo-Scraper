@@ -19,6 +19,7 @@ $(".addComment").on("click", function(event){
     }).then(
         $("#name").val(""),
         $("#comment-text").val("")
+        
     )
 
 })
